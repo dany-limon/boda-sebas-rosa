@@ -171,6 +171,7 @@ public class MainActivity extends AppCompatActivity {
 
             Toast.makeText(MainActivity.this, "Imagen compartida", Toast.LENGTH_SHORT).show();
             finish();
+            System.exit(0);
         }
     };
 }
