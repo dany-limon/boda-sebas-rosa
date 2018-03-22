@@ -1,0 +1,115 @@
+.App {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+}
+
+header {
+  background: #FFB6B9;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+header .right-icon {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  bottom:0;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 20px;
+}
+
+header div span {
+  color: #FFFFFF;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+header div span:active {
+  color: lightgrey;
+}
+
+header h1 {
+  font-family: 'Amatic SC';
+  font-size: 26pt;
+  line-height: 14px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+header h2 {
+  font-family: 'Amatic SC';
+  font-size: 14pt;
+  color: white;
+  text-align: center;
+  line-height: 10px;
+}
+
+.App .photo {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.pause{
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.next, .previous {
+  position: absolute;
+  top: 0;  
+  bottom: 0;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  color: #61C0BF;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.previous {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.next:active, .previous:active {
+  color: #BBDED6;
+}
+
+.App .photo img {
+  object-fit: contain;
+  height: 75vh;
+  width: 90vw;
+}
+
+.grid-gallery{
+  margin: 4%;
+  padding-bottom: 20px;
+}
+
+@media (max-height: 320px) {
+  header h2 {
+    display: none;
+  }
+}

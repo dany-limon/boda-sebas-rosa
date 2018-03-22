@@ -1,0 +1,25 @@
+{
+  "name": "boda-web",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.1.1"
+  },
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "firebase": "4.11.0",
+    "lodash": "^4.17.5",
+    "react": "^16.2.0",
+    "react-animated-css": "^1.0.4",
+    "react-dom": "^16.2.0",
+    "react-fontawesome": "^1.6.1",
+    "react-id-swiper": "^1.6.1",
+    "react-photo-gallery": "^6.0.22"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

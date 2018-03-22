@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "777556442432",
+    "firebase_url": "https://boda-sebas-rosa.firebaseio.com",
+    "project_id": "boda-sebas-rosa",
+    "storage_bucket": "boda-sebas-rosa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777556442432:android:6225d112461bc25e",
+        "android_client_info": {
+          "package_name": "bodasebasrosa.com.bodasebasrosa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777556442432-8e33mmre3m9dlr420g3d4ecnpfv1836v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYi1FI0erVwju8VZYXtYPJLUSP_g9oS_Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
